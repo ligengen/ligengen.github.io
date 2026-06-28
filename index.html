@@ -254,4 +254,348 @@
 
 <div class="container2">
         <div class="item image2">
-          <img src="imgs/volsmpl_teaser.jpg" width="180" height="auto" alt="Volumetric
+          <img src="imgs/volsmpl_teaser.jpg" width="180" height="auto" alt="VolumetricSMPL teaser">
+        </div>
+        <div class="item text2">
+          <a href="https://markomih.github.io/VolumetricSMPL/">
+            <papertitle>VolumetricSMPL: A Neural Volumetric Body Model for Efficient Interactions, Contacts, and Collisions </papertitle>
+            </a>
+            <br>
+            <a href="https://markomih.github.io/"><authorname>Marko Mihajlovic</authorname></a>,
+            <a href="https://sanweiliti.github.io/"><authorname>Siwei Zhang</authorname></a>,
+            <strong>Gen Li</strong>,
+            <a href="https://zkf1997.github.io/"><authorname>Kaifeng Zhao</authorname></a>,
+            <a href="https://muelea.github.io/"><authorname>Lea Müller</authorname></a>,
+            <a href="https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html"><authorname>Siyu Tang</authorname></a>
+            <br>
+            ICCV 2025, <span style="color: red;"><strong>Highlight (Top 2.3%)</strong></span> 
+            <br>
+
+            <div class="box">
+                <a href="https://markomih.github.io/VolumetricSMPL/"><i class="fa fa-external-link"></i> Project page</a>
+            </div>
+            <div class="box">
+                <a href="https://github.com/markomih/VolumetricSMPL"> <i class="fa fa-github"></i> Code</a>
+            </div>
+            <div class="box">
+                <a href="https://arxiv.org/abs/2506.23236"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+            </div>
+            <button class="box" onclick="showBib(this, 'volsmpl_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+            <div id='volsmpl_bib' hidden>
+<pre><code>@InProceedings{Mihajlovic_2025_ICCV,
+    author    = {Mihajlovic, Marko and Zhang, Siwei and Li, Gen and Zhao, Kaifeng and M{\"u}ller, Lea and Tang, Siyu},
+    title     = {VolumetricSMPL: A Neural Volumetric Body Model for Efficient Interactions, Contacts, and Collisions},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {5060-5070}
+}</code></pre>
+</div>
+
+      <p></p>
+      <p>
+        VolumetricSMPL is a lightweight and user-friendly add-on module for SMPL(-X)-based body models, enabling seamless volumetric extension. With just a single line of code, users can extend SMPL models with volumetric functionalities. After completing the forward pass, they gain access to key volumetric functionalities, including SDF queries, self-intersection loss, and collision penalties. This implementation maintains full compatibility with existing SMPL-based reconstruction and perception applications. 
+      </p>
+    </div>
+  </div>
+
+
+      <div class="container2">
+        <div class="item image2">
+          <video width="100%" height="auto" autoplay loop muted playsinline controls>
+            <source src="imgs/teaser.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item text2">
+          <a href="https://zkf1997.github.io/DART/">
+            <papertitle>DartControl: A Diffusion-Based Autoregressive Motion Model for Real-Time Text-Driven Motion Control</papertitle>
+            </a>
+            <br>
+            <a href="https://vlg.inf.ethz.ch/team/Kaifeng-Zhao.html"><authorname>Kaifeng Zhao</authorname></a>,
+            <strong>Gen Li</strong>,
+            <a href="https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html"><authorname>Siyu Tang</authorname></a>
+            <br>
+            ICLR 2025, <span style="color: red;"><strong>Spotlight (Top 3.26%)</strong></span> 
+            <br>
+
+            <div class="box">
+                <a href="https://zkf1997.github.io/DART/"><i class="fa fa-external-link"></i> Project page</a>
+            </div>
+            <div class="box">
+                <a href="https://github.com/zkf1997/DART"> <i class="fa fa-github"></i> Code</a>
+            </div>
+            <div class="box">
+                <a href="https://arxiv.org/abs/2410.05260"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+            </div>
+            <button class="box" onclick="showBib(this, 'dart_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+            <div id='dart_bib' hidden>
+<pre><code>@inproceedings{Zhao:DartControl:2025,
+  title = {{DartControl}: A Diffusion-Based Autoregressive Motion Model for Real-Time Text-Driven Motion Control},
+  author = {Zhao, Kaifeng and Li, Gen and Tang, Siyu},
+  booktitle = {The Thirteenth International Conference on Learning Representations (ICLR)},
+  year = {2025}
+}</code></pre>
+</div>
+
+      <p></p>
+      <p>
+        DartControl achieves high-quality and efficient (> 300 frames per second) motion generation conditioned on online streams of text prompts. 
+        Furthermore, by integrating latent space optimization and reinforcement learning-based controls, DartControl enables various motion generation applications with spatial constraints and goals, including motion in-between, waypoint goal reaching, and human-scene interaction generation.
+      </p>
+    </div>
+  </div>
+
+      <div class="container2">
+            <div class="item image2">
+              <video width="100%" height="auto" autoplay loop muted playsinline controls>
+                <source src="imgs/EgoGen data samples.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item text2">
+              <a href="https://ego-gen.github.io/">
+                <papertitle>EgoGen: An Egocentric Synthetic Data Generator</papertitle>
+                </a>
+                <br>
+                <strong>Gen Li</strong>,
+                <a href="https://vlg.inf.ethz.ch/team/Kaifeng-Zhao.html"><authorname>Kaifeng Zhao</authorname></a>,
+                <a href="https://vlg.inf.ethz.ch/team/Siwei-Zhang.html"><authorname>Siwei Zhang</authorname></a>,
+                <a href="https://vlg.inf.ethz.ch/team/Xiaozhong-Lyu.html"><authorname>Xiaozhong Lyu</authorname></a>,
+                <a href="https://dusmanu.com/"><authorname>Mihai Dusmanu</authorname></a>,
+                <a href="https://yz-cnsdqz.github.io/"><authorname>Yan Zhang</authorname></a>,
+                <a href="https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys"><authorname>Marc Pollefeys</authorname></a>,
+                <a href="https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html"><authorname>Siyu Tang</authorname></a>
+                <br>
+                CVPR 2024, <span style="color: red;"><strong>Oral Presentation (Top 0.78%)</strong></span>, 🏆 <span style="color: red;"><strong>EgoVis Distinguished Paper Award</strong></span>
+                <br>
+
+                <div class="box">
+                    <a href="https://ego-gen.github.io/"><i class="fa fa-external-link"></i> Project page</a>
+                </div>
+                <div class="box">
+                    <a href="https://github.com/ligengen/EgoGen"> <i class="fa fa-github"></i> Code</a>
+                </div>
+                <div class="box">
+                    <a href="https://arxiv.org/abs/2401.08739"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+                </div>
+                <button class="box" onclick="showBib(this, 'egogen_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+                <div id='egogen_bib' hidden>
+  <pre><code>@InProceedings{li2024egogen,
+    author    = {Li, Gen and Zhao, Kaifeng and Zhang, Siwei and Lyu, Xiaozhong and Dusmanu, Mihai and Zhang, Yan and Pollefeys, Marc and Tang, Siyu},
+    title     = {EgoGen: An Egocentric Synthetic Data Generator},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {14497-14509}
+}</code></pre>
+  </div>
+
+          <p></p>
+          <p>
+            EgoGen is a new synthetic data generator that produces accurate and rich ground-truth training data for egocentric perception tasks. It closes the loop for embodied perception and action by building a world model for realistic embodied human motion synthesis in 3D scenes and simulating camera rigs for head-mounted devices, rendering egocentric views with various sensors. We demonstrate EgoGen's efficacy in various applications.
+          </p>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="item image2">
+          <img src="imgs/trtm.png" width="100%" height="auto" alt="TRTM: Template-based Reconstruction and Target-oriented Manipulation of Crumpled Cloths">
+        </div>
+        <div class="item text2">
+          <a href="https://wenbwa.github.io/TRTM/">
+            <papertitle>TRTM: Template-based Reconstruction and Target-oriented Manipulation of Crumpled Cloths</papertitle>
+          </a>
+          <br>
+          <authorname>Wenbo Wang</authorname>, 
+          <strong>Gen Li</strong>, 
+          <authorname>Miguel Zamora</authorname>,
+          <a href="https://crl.ethz.ch/people/coros/index.html"><authorname>Stelian Coros</authorname></a>
+          <br>
+          ICRA 2024
+          <br>
+          <div class="box">
+            <a href="https://wenbwa.github.io/TRTM/"><i class="fa fa-external-link"></i> Project page</a>
+          </div>
+          <div class="box">
+            <a href="https://github.com/ligengen/TRTM"><i class="fa fa-github"></i> Code</a>
+          </div>
+          <div class="box">
+            <a href="https://arxiv.org/abs/2308.04670"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+          </div>
+          <button class="box" onclick="showBib(this, 'trtm_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+          <div id='trtm_bib' hidden>
+            <pre><code>@inproceedings{wang2024trtm,
+  title={Trtm: Template-based reconstruction and target-oriented manipulation of crumpled cloths},
+  author={Wang, Wenbo and Li, Gen and Zamora, Miguel and Coros, Stelian},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={12522--12528},
+  year={2024},
+  organization={IEEE}
+}</code></pre>
+          </div>
+          <p></p>
+          <p>
+            Precise reconstruction and manipulation of the crumpled cloths is challenging due to the high dimensionality of deformable objects, as well as the limited observation at self-occluded regions. We use Graph Neural Networks to reconstruct crumpled cloths from their top-view depth images, with our proposed sim-real registration protocols, enabling efficient dual-arm and single-arm target-oriented manipulations. </p>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="item image2">
+          <img src="imgs/overview-new-01.png" alt="Reconstructing Action-Conditioned Human-Object Interactions">
+        </div>
+        <div class="item text2">
+          <a href="https://eth-ait.github.io/rhoi/">
+            <papertitle>Reconstructing Action-Conditioned Human-Object Interactions Using Commonsense Knowledge Priors</papertitle>
+          </a>
+          <br>
+          <a><authorname>Xi Wang*</authorname></a>, 
+          <strong>Gen Li*</strong>, 
+          <a href="https://yenlingkuo.com/"><authorname>Yen-Ling Kuo</authorname></a>, 
+          <a href="https://ps.is.mpg.de/person/mkocabas"><authorname>Muhammed Kocabas</authorname></a>, 
+          <a href="https://emreaksan.github.io/"><authorname>Emre Aksan</authorname></a>, and 
+          <a href="https://ait.ethz.ch/people/hilliges"><authorname>Otmar Hilliges</authorname></a> 
+          <br>
+          3DV 2022. <strong>* Equal contribution</strong>
+          <br>
+       
+          <div class="box">
+            <a href="https://eth-ait.github.io/rhoi/"><i class="fa fa-external-link"></i> Project page</a>
+          </div>
+          <div class="box">
+            <a href="https://arxiv.org/abs/2209.02485"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+          </div>
+          <button class="box" onclick="showBib(this, 'rhoi_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+          <div id="rhoi_bib" hidden>
+            <pre><code>@inproceedings{wang2022reconstructing,
+  title={Reconstructing action-conditioned human-object interactions using commonsense knowledge priors},
+  author={Wang, Xi and Li, Gen and Kuo, Yen-Ling and Kocabas, Muhammed and Aksan, Emre and Hilliges, Otmar},
+  booktitle={2022 International Conference on 3D Vision (3DV)},
+  pages={353--362},
+  year={2022},
+  organization={IEEE}
+}</code></pre>
+          </div>
+       
+          <p></p>
+          <p>
+            We propose an action-conditioned modeling of interactions that allows us to infer diverse 3D arrangements of humans and objects without supervision on contact regions or 3D scene geometry. Our method extracts high-level commonsense knowledge from large language models (such as GPT-3) and applies them to perform 3D reasoning of human-object interactions.
+          </p>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="item image2">
+          <img src="imgs/gen_knot.png" alt="Learning Topological Motion Primitives for Knot Planning">
+        </div>
+        <div class="item text2">
+          <a href="https://sites.google.com/stanford.edu/topological-motion-primitives/home">
+            <papertitle>Learning Topological Motion Primitives for Knot Planning</papertitle>
+          </a>
+          <br>
+          <a href="https://scholar.google.com/citations?user=-S_9ZRcAAAAJ&hl=en"><authorname>Mengyuan Yan</authorname></a>, 
+          <strong>Gen Li</strong>, 
+          <a href="https://yilinzhu.me/"><authorname>Yilin Zhu</authorname></a>, and 
+          <a href="https://web.stanford.edu/~bohg/"><authorname>Jeannette Bohg</authorname></a>
+          <br>
+          IROS 2020
+          <br>
+       
+          <div class="box">
+            <a href="https://sites.google.com/stanford.edu/topological-motion-primitives/home"><i class="fa fa-external-link"></i> Project page</a>
+          </div>
+          <div class="box">
+            <a href="https://arxiv.org/abs/2009.02615"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+          </div>
+          <button class="box" onclick="showBib(this, 'knot_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+          <div id="knot_bib" hidden>
+            <pre><code>@inproceedings{yan2020learning,
+  title={Learning topological motion primitives for knot planning},
+  author={Yan, Mengyuan and Li, Gen and Zhu, Yilin and Bohg, Jeannette},
+  booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={9457--9464},
+  year={2020},
+  organization={IEEE}
+}</code></pre>
+          </div>
+       
+          <p></p>
+          <p>
+            We propose a hierarchical approach where the top layer generates a topological plan, and the bottom layer converts it into robot motion using learned motion primitives. These primitives adapt to rope geometry using observed configurations and are trained via human demonstrations and reinforcement learning. To generalize from simple to complex knots, the neural network leverages shared motion strategies across topological actions.</p>
+        </div>
+      </div>
+
+      <div class="item text2">
+            <p>
+              <heading>Invited Talks</heading>
+            </p>
+             <p>
+            <ul>
+                <li>Invited speaker at the 2nd <a href="https://egomotion-workshop.github.io/">EgoMotion workshop</a> at ICCV 2025. (Oct 2025)</li>
+                <li>Invited to give a talk at <a href="https://www.microsoft.com/en-us/research/lab/spatial-ai-zurich/">Microsoft</a> on <i>Toward Egocentric Multimodal Multitask Pretraining</i>. <a href="files/microsoft-talk.pdf">Slides</a>. (Sep 2025)</li>
+            </ul>
+            </p>
+        </div>
+
+      <div class="item text2">
+            <p>
+              <heading>Honors & Awards</heading>
+            </p>
+            <p>
+            <ul>
+                <li>EgoVis Distinguished Paper Awards (<strong>×2</strong>) awarded for papers EgoGen and EgoM2P (2026) </li>
+                <li>ETH Zurich Direct Doctorate Scholarship (2020) </li>
+                <li>Outstanding Bachelor's Graduate, Tsinghua University (2020) </li>
+                <li>POSCO Asia Fellowship (2017, 2018, 2019) </li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="item text2">
+            <p>
+              <heading>Academic Service</heading>
+            </p>
+             <p>
+            <ul>
+                <li>Reviewer for CVPR, ICCV, ECCV.</li>
+                <li>Co-organizer (proposal stage) of <a href="https://iccv.thecvf.com/virtual/2025/workshop/2800">EgoMotion workshop</a> at ICCV 2025.</li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="item text2">
+          <p>
+            <heading>Teaching</heading>
+          </p>
+           <p>
+          <ul>
+              <li>
+                <span>Head Teaching Assistant, <a href="https://vlg.inf.ethz.ch/teaching/Digital-Humans-FS-24.html">263-5806-00L <strong>Digital Humans</strong></a>, ETH Zürich</span>
+                <span>Spring 2024</span>
+              </li>
+              <li>
+                <span>Teaching Assistant, <a href="https://vlg.inf.ethz.ch/teaching/Digital-Humans-FS-25.html">263-5806-00L <strong>Digital Humans</strong></a>, ETH Zürich</span>
+                        <span>Spring 2025</span>
+              </li>
+              <li>
+                <span>Teaching Assistant, <a href="https://cvg.ethz.ch/lectures/Computer-Vision">263-5902-00L <strong>Computer Vision</strong></a>, ETH Zürich</span>
+                        <span>Fall 2023, Fall 2024</span>
+              </li>
+          </ul>
+          </p>
+      </div>
+
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;">
+                   Template adapted from <a href="https://sanweiliti.github.io/">Siwei Zhang</a>'s website.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+      <script type="text/javascript" src="show_bib.js"></script>
+    </div>
+<br>
+</body>
+</html>
