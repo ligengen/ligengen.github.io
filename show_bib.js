@@ -1,5 +1,7 @@
-function showBib(bib){
-    document.getElementById(bib).hidden = document.getElementById(bib).hidden? false : true;
-    let btext = document.getElementById("bib_button").innerText;
-    document.getElementById("bib_button").innerText = (btext[0] == 'H')? btext.replace("Hide","Show") : btext.replace("Show","Hide");
-    }
+function showBib(btn, bib){
+    const box = document.getElementById(bib);
+    box.hidden = !box.hidden;
+    // 只改最后那个文字节点，保留 <i> 图标
+    const label = btn.lastChild;
+    label.textContent = box.hidden ? " Show BibTex" : " Hide BibTex";
+}
